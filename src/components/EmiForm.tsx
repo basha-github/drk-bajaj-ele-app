@@ -48,6 +48,7 @@ export default function EmiForm() {
         <div className="mb-3">
           <label className="mylable info">Customer Aadhar</label>
           <input
+          onChange={getAadhar}
             type="text"
             className="form-control"
             id="exampleInputEmail1"
@@ -57,6 +58,7 @@ export default function EmiForm() {
         <div className="mb-3">
           <label className="mylable info">Pan Number</label>
           <input
+          onChange={getPan}
             type="text"
             className="form-control"
             id="exampleInputEmail1"
@@ -66,6 +68,7 @@ export default function EmiForm() {
         <div className="mb-3">
           <label className="mylable info">Income</label>
           <input
+          onChange={getIncome}
             type="text"
             className="form-control"
             id="exampleInputEmail1"
@@ -75,6 +78,7 @@ export default function EmiForm() {
         <div className="mb-3">
           <label className="mylable info">Loan Amount</label>
           <input
+          onChange={getLoan}
             type="text"
             className="form-control"
             id="exampleInputEmail1"
