@@ -13,27 +13,26 @@ export default function EmiForm() {
     setName(e.target.value);
   };
 
-const getAadhar = (e:any)=>{
-setAadhar(e.target.value);
-}
+  const getAadhar = (e: any) => {
+    setAadhar(e.target.value);
+  };
 
-const getPan = (e:any)=>{
-setPan(e.target.value);
-}
+  const getPan = (e: any) => {
+    setPan(e.target.value);
+  };
 
-const getIncome = (e:any)=>{
-setIncome(e.target.value);
-}
+  const getIncome = (e: any) => {
+    setIncome(e.target.value);
+  };
 
-const getLoan = (e:any)=>{
-setLoan(e.target.value);
-}
+  const getLoan = (e: any) => {
+    setLoan(e.target.value);
+  };
 
-
-  const sendData = (e:FormDataEvent) => {
+  const sendData = (e: FormDataEvent) => {
     e.preventDefault();
     console.log("hello");
-    console.log("name--->"+name);
+    console.log("name--->" + name);
   };
   return (
     <div className="logincenter">
