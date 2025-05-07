@@ -33,6 +33,10 @@ export default function EmiForm() {
     e.preventDefault();
     console.log("hello");
     console.log("name--->" + name);
+    console.log("aadhar--->" + aadhar);
+    console.log("pan number--->" + pan);
+    console.log("income amount--->" + income);
+    console.log("loan amount--->" + loan);
   };
   return (
     <div className="logincenter">
